@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+intmain{
+int x = 3;
+int y = 7;
+int aux;
+
+/*trocar o valor de x com y */
+aux = x;
+x = y;
+y = aux;
+/* mostrar os valores em X e em Y */
+printf("x:%d, y:%d", x,y )
+}
