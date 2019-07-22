@@ -1,0 +1,12 @@
+
+intmain{
+int x = 3;
+int y = 7;
+
+/*trocar o valor de x com y */
+x = x + y;
+y = y - x;
+x = x - y;
+/* mostrar os valores em X e em Y */
+printf("x:%d, y:%d", x,y )
+}
