@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+  char c;
+  int x;
+  double d;
+  
+  printf('input a character:');
+  scanf('%c', &c);
+  printf('input a integer:');
+  scanf('%d', &x);
+  printf('input a real number:');
+  scanf('%lf', &d);
+  
+  printf('recorded values: %c, %d, %lf', c, x, d);
+}
