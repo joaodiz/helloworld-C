@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+  char c ='a';
+  float  x = 324823.343
+  double y = 2343791.23904
+  /* show values */
+  printf('c: %c (%d), x: %f, y: %g', c, c, x, y);
+} 
