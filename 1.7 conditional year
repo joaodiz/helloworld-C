@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+  int ano;
+  printf('indique ano:');
+  scanf('%d',&ano);
+  
+  /* testing if the year has a 29 of february*/
+  if(ano%4==0 && ano%100!=0 || ano%400==0)
+    printf('bisexto');
+  else
+    printf('normal');
+}
