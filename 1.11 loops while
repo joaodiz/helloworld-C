@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+  int sum=0, i=0;
+  while(i<=4){
+    sum += i*i;
+  }
+  printf('sum of the first 4 natural squared:%d', sum);
+}
