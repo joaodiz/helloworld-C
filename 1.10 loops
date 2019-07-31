@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <math.h>
+main(){
+  int sum=0;
+  sum= 1*1;
+  sum = sum + 2*2;
+  sum = sum + 3*3;
+  sum = sum + pow(4,2);
+}
