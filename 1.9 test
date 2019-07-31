@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+main(){
+  int number;
+  printf('give a number to test if even or odd:');
+  scanf('%d', &umber);
+  /* the boolean : 0 is false, and all other int are True */
+  if (number%2)
+    printf('the number:%number is odd', number);
+  else
+    printf('the number: %d is even', number);
+  /* here the result that gives 0 gets to be True because X==0 this results in a True result. */
+  if(numero%2==0)
+    printf("par");
+  else
+    printf("impar");
+}
