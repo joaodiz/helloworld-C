@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+  char c ='a';
+  while (c<='z')
+  {
+    printf('\n letra %c ) %d', c,c );
+  }
+}
