@@ -1,0 +1,22 @@
+#inlcude <stdio.h>
+/* count the number of possible even number pairs in which a+ b <= k  and a*b <= k */
+int main()
+{
+  int a, b, k, count;
+  printf('indique K:');
+  scanf('%d', &k);
+  count = 0;
+  a = 1;
+  while(a <= k)
+  {
+    b = 1;
+    while(b <= k)
+    {
+      if(a + b <= k && a*b <= k)
+        count++;
+      b++;
+    }
+    a++
+  }
+  printf('total: %d', count);
+}
