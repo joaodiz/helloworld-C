@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+main ()
+{
+  char a = 'a';
+  short b = 12;
+  int c = 1;
+  long d = 129312;
+  long long e = 12323;
+  float f = 1.2;
+  double g = 123.123;
+  long double h = 2313.231;
+  printf('Olá Mundo!');
+  
+  
+}
