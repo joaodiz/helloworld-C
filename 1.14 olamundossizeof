@@ -11,6 +11,8 @@ main ()
   double g = 123.123;
   long double h = 2313.231;
   printf('Olá Mundo!');
-  
+  printf('\nsizeof(char):%d', sizeof(a));
+  printf('\nsizeof(short):%d', sizeof(b));
+  printf('\nsizeof(int):%d', sizeof(c));
   
 }
